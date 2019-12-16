@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script type="text/javascript">
+        var name = prompt("What is your name?");
+        var age= confirm("Are you 21+ ?");
+
+        var carName="Honda";
+       
+        var carYear= 1979;
+        var carModel = "Civic";
+        var isDriving= true;
+
+        if(age){
+            alert("Youre old enough to drive on your own");
+        }else{
+            alert("Get  parent or come back at 21 kid");
+        }
+        var whatYear = prompt(
+            "What year is your car"
+        )
+        if(whatYear < carYear){
+            
+            alert("Damn your car is old. Needs a tune up");
+        }else{
+            alert("She still runs like a beauty");
+        };
+
+        var whatModel= prompt("What models is your car")
+        if( whatModel !== carModel){
+            alert("Youre at the wrong car");
+        }else{
+            alert("unlock your car")
+        }
+
+        if(!isDriving){
+            alert("your car is off");
+        }else{
+            alert("youre wasting gas");
+        }
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
